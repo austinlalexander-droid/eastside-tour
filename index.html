@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Eastside Tour — Eastside Community Church</title>
+<link rel="icon" type="image/x-icon" href="images.squarespace-cdn.com/content/v1/5a16343790bade62214e8678/1516854262114-IMGOVDXTUO2EFA5N65YC/favicon.ico">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    font-family: "futura-pt", Futura, "Century Gothic", "Avenir Next", Avenir, sans-serif;
+    background-color: #2b2b2b;
+    background-image: url("images.squarespace-cdn.com/content/v1/5a16343790bade62214e8678/1582218126093-SRTL4MHYLBS1E13V80LN/backgroundmap.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6vh 1.5rem 4rem;
+    text-align: center;
+  }
+  .scrim {
+    position: fixed; inset: 0;
+    background: rgba(20,20,20,.55);
+    pointer-events: none;
+  }
+  main { position: relative; max-width: 900px; width: 100%; }
+  .logo { width: min(640px, 92%); height: auto; margin-bottom: 1rem; }
+  .tagline {
+    color: #c9a54a;
+    letter-spacing: .18em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: clamp(.8rem, 2.4vw, 1.05rem);
+    margin-bottom: 3rem;
+  }
+  .stops {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: .75rem;
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+  .stops a {
+    display: block;
+    padding: 1rem .75rem;
+    border: 1px solid rgba(201,165,74,.65);
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    font-size: .85rem;
+    background: rgba(0,0,0,.35);
+    transition: background .15s ease, border-color .15s ease;
+  }
+  .stops a:hover { background: rgba(201,165,74,.25); border-color: #c9a54a; }
+  .stops a span { display: block; margin-top: .3rem; color: #c9a54a; font-size: .7rem; letter-spacing: .08em; }
+  h2 {
+    color: #c9a54a;
+    letter-spacing: .2em;
+    font-size: .9rem;
+    text-transform: uppercase;
+    margin: 2.25rem 0 1rem;
+  }
+  footer { position: relative; margin-top: 3rem; color: rgba(255,255,255,.65); font-size: .75rem; letter-spacing: .08em; }
+  footer a { color: #c9a54a; }
+</style>
+</head>
+<body>
+<div class="scrim"></div>
+<main>
+  <img class="logo" src="images.squarespace-cdn.com/content/v1/5a16343790bade62214e8678/1582223706252-IQKQ93E7UPAV3AV03CY1/FINALFINALTOURLOGOtighttransparent.png" alt="The Eastside Tour">
+  <p class="tagline">Exploring the history, culture, &amp; needs of our Dallas</p>
+
+  <div class="stops">
+    <a href="site1.html">Site 1<span>Ancient Dallas</span></a>
+    <a href="site2.html">Site 2<span>Modern Dallas</span></a>
+    <a href="site-3.html">Site 3<span>Escape to Dallas</span></a>
+    <a href="site-4.html">Site 4</a>
+    <a href="site-5.html">Site 5</a>
+    <a href="site-6.html">Site 6</a>
+    <a href="site-7.html">Site 7</a>
+    <a href="site-8.html">Site 8</a>
+    <a href="site-9.html">Site 9</a>
+    <a href="site-10.html">Site 10</a>
+    <a href="site-11.html">Site 11</a>
+    <a href="tour-end.html">Tour End</a>
+  </div>
+
+  <h2>More Locations</h2>
+  <div class="stops">
+    <a href="white-rock.html">White Rock</a>
+    <a href="old-cemeteries.html">Old Cemeteries</a>
+    <a href="little-egypt.html">Little Egypt</a>
+    <a href="young-life-1.html">Young Life</a>
+  </div>
+
+  <footer>Eastside Community Church of Dallas &middot; The Eastside Tour (archived)</footer>
+</main>
+</body>
+</html>
